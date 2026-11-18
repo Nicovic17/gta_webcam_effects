@@ -1,0 +1,8 @@
+# Versioni gia verificate per l'app Windows con Python 3.13.
+mediapipe==1.0.1
+opencv-contrib-python==5.0.0.93
+numpy==2.5.3
+pyvirtualcam==0.15.0
+pillow==12.3.0
+# Audio: ffplay nel PATH, oppure installare pygame separatamente.
+# Il worker GPU ha il proprio requirements-vice-local.txt e Python 3.10.

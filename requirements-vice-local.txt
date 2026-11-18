@@ -1,0 +1,17 @@
+# Installare solo con Python 3.10 nel virtualenv .vice-local/venv.
+# PyTorch/xformers vengono dall'indice ufficiale CUDA 11.8.
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+xformers==0.0.23.post1
+numpy==1.26.4
+diffusers==0.24.0
+transformers==4.36.2
+accelerate==0.25.0
+huggingface-hub==0.25.2
+safetensors==0.4.5
+pillow==10.4.0
+opencv-python==4.10.0.84
+fire==0.5.0
+omegaconf==2.3.0
+packaging==24.2
+setuptools==69.5.1

@@ -1,0 +1,36 @@
+# Python e ambienti locali
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.vice-local/
+
+# Credenziali (il file di esempio resta versionato)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Cache, test e build
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.log
+
+# Impostazioni editor e file di sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
